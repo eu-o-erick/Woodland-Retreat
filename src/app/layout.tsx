@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={ubuntu.className}>
-      <body className="bg-bg text-text">{children}</body>
+      <body className="bg-bg text-text pt-[68px] max-md:pt-14">{children}</body>
     </html>
   );
 }
